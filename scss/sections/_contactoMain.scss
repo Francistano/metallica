@@ -1,0 +1,33 @@
+.mainContacto {
+    background-color: #232323;
+    min-height: 80vh;
+    color: white;
+
+    h2 {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    &__section1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__section2 {
+        display: flex;
+        width: 65vw;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    &__section3 {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+}

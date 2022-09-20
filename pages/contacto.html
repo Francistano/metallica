@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../images/mainLogo.png" alt="Logo Metallica"></a>
+        <nav>
+            <ul>
+                <li class="header__li"><a href="./historia.html">Historia</a></li>
+                <li class="header__li"><a href="./banda.html">Banda</a></li>
+                <li class="header__li"><a href="./galeria.html">Galeria</a></li>
+                <li class="header__li--negrita"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainContacto">
+        <h2>Dejanos tu comentario</h2>
+        <div class="mainContacto__div">
+            <section class="mainContacto__section1">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Nombre y Apellido" name="nombre">
+                    <br><br>
+                    <input type="number" placeholder="Edad" name="edad">
+                    <br><br>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <br><br>
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" value="mujer">
+                    <br><br>
+                    <select name="estadoCivil">
+                        <option value="-">Estado Civil</option>
+                        <option value="soltero">Soltero/a</option>
+                        <option value="casado">Casado/a</option>
+                        <option value="viudo">Viudo/a</option>
+                        <option value="divorciado">divorciado/a</option>
+                    </select>
+            </section>
+            <br><br>
+            <section class="mainContacto__section2">
+                <textarea placeholder="Dejanos tu comentario" name="comentario" cols="20" rows="10"></textarea>
+            </section>
+            <br>
+            <br>
+            <section class="mainContacto__section3">
+                <input type="submit" value="Comentar">
+                <input type="reset" value="Borrar">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li><a href="#">twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

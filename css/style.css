@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header img {
+    width: 200px;
+    padding: 8px; }
+  .header__li--negrita {
+    font-weight: 900; }
+  .header ul {
+    list-style: none;
+    display: flex;
+    align-items: center; }
+  .header a {
+    color: white; }
+    .header a:hover {
+      color: #232323; }
+  .header li {
+    padding: 20px; }
+
+@media (max-width: 560px) {
+  .header {
+    flex-direction: column; } }
+
+.mainIndex {
+  background-color: #232323;
+  min-height: 80vh;
+  color: white; }
+
+.mainTitle {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 10vw; }
+
+h2 {
+  padding: 15px;
+  margin: 0 auto; }
+
+h3 {
+  padding: 15px;
+  margin: 0 auto; }
+
+p {
+  margin: 0 auto;
+  max-width: 75vw;
+  padding: 10px; }
+
+.mainHistoria {
+  background-color: #232323;
+  min-height: 80vh;
+  color: white; }
+  .mainHistoria h2 {
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+    justify-content: center; }
+
+.mainContacto {
+  background-color: #232323;
+  min-height: 80vh;
+  color: white; }
+  .mainContacto h2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; }
+  .mainContacto__section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .mainContacto__section2 {
+    display: flex;
+    width: 65vw;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-direction: column; }
+  .mainContacto__section3 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-direction: row; }
+
+.mainGaleria {
+  background-color: #232323;
+  min-height: 80vh;
+  color: white; }
+
+.gridContainer {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9"; }
+  .gridContainer img {
+    width: 250px; }
+    .gridContainer img:hover {
+      transition: 0.5s;
+      width: 275px; }
+  .gridContainer .img1 {
+    grid-area: img1; }
+  .gridContainer .img2 {
+    grid-area: img2; }
+  .gridContainer .img3 {
+    grid-area: img3; }
+  .gridContainer .img4 {
+    grid-area: img4; }
+  .gridContainer .img5 {
+    grid-area: img5; }
+  .gridContainer .img6 {
+    grid-area: img6; }
+  .gridContainer .img7 {
+    grid-area: img7; }
+  .gridContainer .img8 {
+    grid-area: img8; }
+  .gridContainer .img9 {
+    grid-area: img9; }
+
+@media (max-width: 750px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "img1 img2" "img3 img4 " "img5 img6" "img7 img8" "img9 img9"; } }
+
+@media (max-width: 500px) {
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9"; } }
+
+.mainBanda {
+  background-color: #232323;
+  min-height: 80vh;
+  color: white; }
+  .mainBanda__mainTitle {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 10vw; }
+  .mainBanda__divBan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .mainBanda__secBan {
+    display: flex;
+    flex-direction: column; }
+  .mainBanda li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 0 0 20px; }
+
+.footer {
+  background-color: #000; }
+  .footer ul {
+    list-style: none;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-around; }
+  .footer li {
+    padding: 20px; }
+  .footer a {
+    color: white; }
+    .footer a:hover {
+      color: #232323; }
